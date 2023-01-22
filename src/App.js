@@ -6,9 +6,9 @@ import twitterLogo from './assets/twitter-logo.svg';
 
 // Constants
 const CONTRACT_ADDRESS = "0xb3B2EFEc19CEA413e0775850B256E5aDaB7f1fc9";
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = '240p60';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const OPENSEA_LINK = '';
+const OPENSEA_LINK = `https://testnets.opensea.io/assets/goerli/${CONTRACT_ADDRESS}/0`;
 const TOTAL_MINT_COUNT = 50;
 
 const App = () => {
@@ -162,6 +162,7 @@ const App = () => {
     <div className="container">
       <div className="header-container">
         <p className="header gradient-text">My NFT Collection</p>
+        <a href={OPENSEA_LINK}>🌊 View Collection on OpenSea</a>
         <p className="sub-text">
           Each unique. Each beautiful. Discover your NFT today.
         </p>
